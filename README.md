@@ -17,12 +17,12 @@ const a = -2;
 const b = 3;
 const c = 4;
 
-qfZeros(a,b,c)
+Math.qfZeros(a,b,c)
 // [-0.851, 2.351]
 
-qfZeros(a,b,c,4)
+Math.qfZeros(a,b,c,4)
 // [0, 1.5]
 
-qfZeros(a,b,c,-4)
+Math.qfZeros(a,b,c,-4)
 // [-1.386, 2.886]
 ```
